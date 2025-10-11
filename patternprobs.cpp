@@ -7,7 +7,7 @@
 #include <iostream>
 using namespace std;
 
-void pattern1(/* printing a square of side n*/){
+void pattern1(/*square of side n*/){
     
     int n;
     cin>>n;
@@ -20,7 +20,7 @@ for (int i = 0; i < n; i++)
     cout<<endl;
 }
 }
-void pattern2(/*printing a right angled triangle*/){
+void pattern2(/*right angled triangle*/){
     int n ; cin>>n;
     for (int i = 0; i < n; i++)
     {
@@ -32,8 +32,29 @@ void pattern2(/*printing a right angled triangle*/){
     }
 }
 
-void pattern3(/*printing a right triangle of numbers*/){
+void pattern3(/*right triangle of numbers*/){
+    int n ; cin>>n;
+    for (int i = 1; i <=n; i++)
+    {
+        for (int j = 1;  j<=i; j++)
+        {
+            cout<<j<<" "; 
+        }
+        cout<<endl;
+    }
+}
+
+void pattern4(/*equilateral triangle*/){
+int n ; cin>>n;
+for (int i = 0; i < n; i++)
+{
+    for ( int j = 0; j < i; j++)
+    {
+        
+    }
     
+}
+
 }
 
 int main(){
