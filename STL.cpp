@@ -49,10 +49,23 @@ void Vector(){
     v.erase(v.begin()+2); // erases the 3rd element in vector
     v.erase(v.begin()+1 , v.begin()+4);// erases multiple elements [start , end)
     
+    //insert function
 
+v.insert(v.begin(),300); // insert element 300 in beginning
+v.insert(v.begin()+3, 2) ;
 
+cout<<v.empty(); // prints false if vector has some elements and true if empty
 }
 
+void lists(){
+    list<int> ls;
+
+    ls.push_back(2); // {2}
+    ls.push_front(5); //{2,5}
+    ls.emplace_front(4);//{4,2,5}
+    //begin , end , insert , size same a vector
+
+}
 
 
 
